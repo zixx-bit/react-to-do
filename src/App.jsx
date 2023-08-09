@@ -9,7 +9,8 @@ import "./style.css";
     e.preventDefault()
 
 
-     setTodos(currentTodos =>{
+    //   this us like currentTodos[] = returned values
+      setTodos(currentTodos =>{
         return[
             ...currentTodos,
             {
